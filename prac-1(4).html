@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>The salary is: [5600, 6800, 2300, 9000,]</p>
+   <p id="result"></p>
+   <script>
+      let array = [5600, 6800, 2300, 9000,];
+      let min = Math.min(...array);
+      let max = Math.max(...array);
+      document.getElementById('result').innerHTML = "The maximum salary is: <b>" + max + "</b><br>" + "The minimum salary is: <b>" + min + "</b>";
+   </script>
+</body>
+</html>

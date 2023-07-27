@@ -1,0 +1,18 @@
+
+    {
+      "name": "FSWD1",
+      "type": "folder",
+      "children": [
+        {
+          "name": "File11.txt",
+          "type": "file",
+          "content": "This is the content of File11.txt."
+        }
+        
+      ]
+    }
+  
+    
+  
+  
+
